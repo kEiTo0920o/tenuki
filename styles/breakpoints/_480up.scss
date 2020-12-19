@@ -1,0 +1,211 @@
+header{
+  position: relative;
+  background-image: url("https://d1f5hsy4d47upe.cloudfront.net/98/98c409309c194410ed3661e1c3b38d19_t.jpeg");
+  height:250px;
+  background-size: cover;
+  & .a{
+   position: absolute;
+   top:150px;
+   left:50%;
+   transform:translate(-180%,-50%); 
+   width:100px;
+  }
+  & .b{
+   position: absolute;
+   top:150px;
+   left:50%;
+   transform:translate(-50%,-50%); 
+   width:190px;
+  }
+  & .c{
+   position: absolute;
+   top:150px;
+   left:50%;
+   transform:translate(80%,-50%); 
+   width:100px;
+  }
+}
+.own{
+  position: relative;
+  height:1500px;
+  background: linear-gradient(180deg, #8EF1FF 0%,#8EF1FF  50%, #333399 50%, #333399 100%);
+
+  .flex{
+    display: none;
+  }
+
+  .flex-pe{
+    position: absolute;
+    top:20px;
+    display: flex;
+    flex-direction: column;
+    .pe{
+      display: flex;
+      flex-direction: column;
+
+      & .logo{
+        text-align: center;
+        margin-left:80px;
+        width:200px;
+        margin-bottom:30px ;
+      }
+      & .fruits{
+        width:300px;
+        text-align: center;
+        margin-left:30px;
+        margin-bottom:120px;
+      }
+    }
+  }
+}
+.two{
+  position: relative;
+  top:1px;
+  background-image: url("https://free-paper-texture.com/p/p0091/p0091_m.jpg");
+  height: 550px;
+
+  & .title{
+   position: absolute;
+   top:50px;
+   left:50%;
+   transform:translate(-50%,-50%);
+   font-size:16px;
+   width:330px;
+   & > span{
+     font-size: 17px;
+     font-weight: bold;
+   }
+  }
+  .flex{//pc
+    display: none;
+  }
+  .flex-two{
+    position: absolute;
+    top:330px;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+   & img{
+     margin-left:20px;
+     width:270px;
+   }
+   & .date{
+     padding-top:10px;
+     width:270px;
+     font-size: 13px;
+     margin-left:30px;
+     & > span{
+       
+       font-size: 15px;
+       font-weight: bold;
+     }
+   }
+  }
+}
+.three{
+  position: relative;
+  background-image: url("https://d1f5hsy4d47upe.cloudfront.net/98/98c409309c194410ed3661e1c3b38d19_t.jpeg");
+  height:650px;
+  background-size:cover;
+
+  & .title{
+   position: absolute;
+   top:70px;
+   left:50%;
+   transform:translate(-50%,-50%);
+   font-size: 20px;
+  }
+  .flex{
+  position: absolute;
+  top:370px;
+  left:50%;
+  transform:translate(-50%,-50%);
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width:370px;
+   justify-content: space-around;
+   & img{
+     width:130px;
+   }
+  }
+}
+.four{
+  position: relative;
+  background-color:#FFFFE0;
+  height:320px;
+  & img{
+  position: absolute;
+  top:160px;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:650px;
+ }
+}
+.five{
+ display: none;
+}
+.six{
+  position: relative;
+ .flex{
+   position: absolute;
+   top:820px;
+   left:50%;
+   transform:translate(-50%,-50%);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+  .pc{
+    display: flex;
+    flex-direction: column;
+    & .web{
+      text-align: center;
+      width:250px;
+      margin-left:60px;
+    }
+    & .btn-square {
+     display: inline-block;
+     padding: 0.5em 1em;
+     padding-top:15px;
+
+     background: orange;
+     color: #FFF;
+     border-radius: 3px;
+     width:350px;
+     height:60px;
+     text-align: center;
+     margin-left:3px;
+     font-size:25px;
+     margin-top:30px;
+      &:hover{
+       cursor: pointer;
+      }
+    }
+    .grey{
+      background-color:#DCDCDC;
+      width:400px;
+      margin:10px 0;
+      padding:10px;
+      height:470px;
+      margin-left:3px;
+      width:350px;
+      margin-bottom:30px;
+      & h3{
+        margin-top:20px;
+      }
+      & .power{
+       width:370px;
+       margin-top:10px;
+      }
+    }
+  }
+ }
+}
+
+// position: absolute;
+// top:50%;
+// left:50%;
+// transform:translate(-50%,-50%);
+

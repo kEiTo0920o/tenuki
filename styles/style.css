@@ -1,0 +1,568 @@
+@charset "UTF-8";
+/******************************************************************
+
+Stylesheet: ベーススタイル
+
+******************************************************************/
+body {
+  font-family: 'Kameron','Noto Sans JP', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.font-sm {
+  font-size: 14px;
+}
+
+.font-md {
+  font-size: 17px;
+}
+
+.font-lr {
+  font-size: 17px;
+}
+
+.font-lg {
+  font-size: 25px;
+}
+
+.mb-sm {
+  margin-bottom: 16px !important;
+}
+
+.mb-lg {
+  margin-bottom: 80px !important;
+}
+
+.pb-sm {
+  padding-bottom: 16px !important;
+}
+
+.pb-lg {
+  padding-bottom: 80px !important;
+}
+
+.content-width {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1070px;
+}
+
+@media (min-width: 374px) {
+  header {
+    position: relative;
+    background-image: url("https://d1f5hsy4d47upe.cloudfront.net/98/98c409309c194410ed3661e1c3b38d19_t.jpeg");
+    height: 250px;
+    background-size: cover;
+  }
+  header .a {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    -webkit-transform: translate(-180%, -50%);
+            transform: translate(-180%, -50%);
+    width: 100px;
+  }
+  header .b {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 190px;
+  }
+  header .c {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    -webkit-transform: translate(80%, -50%);
+            transform: translate(80%, -50%);
+    width: 100px;
+  }
+  .own {
+    position: relative;
+    height: 1500px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8EF1FF), color-stop(50%, #8EF1FF), color-stop(50%, #333399), to(#333399));
+    background: linear-gradient(180deg, #8EF1FF 0%, #8EF1FF 50%, #333399 50%, #333399 100%);
+  }
+  .own .flex {
+    display: none;
+  }
+  .own .flex-pe {
+    position: absolute;
+    top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .own .flex-pe .pe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .own .flex-pe .pe .logo {
+    text-align: center;
+    margin-left: 80px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  .own .flex-pe .pe .fruits {
+    width: 300px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 120px;
+  }
+  .two {
+    position: relative;
+    top: 1px;
+    background-image: url("https://free-paper-texture.com/p/p0091/p0091_m.jpg");
+    height: 550px;
+  }
+  .two .title {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 16px;
+    width: 330px;
+  }
+  .two .title > span {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .two .flex {
+    display: none;
+  }
+  .two .flex-two {
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .two .flex-two img {
+    margin-left: 20px;
+    width: 270px;
+  }
+  .two .flex-two .date {
+    padding-top: 10px;
+    width: 270px;
+    font-size: 13px;
+    margin-left: 30px;
+  }
+  .two .flex-two .date > span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .three {
+    position: relative;
+    background-image: url("https://d1f5hsy4d47upe.cloudfront.net/98/98c409309c194410ed3661e1c3b38d19_t.jpeg");
+    height: 650px;
+    background-size: cover;
+  }
+  .three .title {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+  .three .flex {
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 370px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .three .flex img {
+    width: 130px;
+  }
+  .four {
+    position: relative;
+    background-color: #FFFFE0;
+    height: 320px;
+  }
+  .four img {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 650px;
+  }
+  .five {
+    display: none;
+  }
+  .six {
+    position: relative;
+  }
+  .six .flex {
+    position: absolute;
+    top: 820px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .six .flex .pc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .six .flex .pc .web {
+    text-align: center;
+    width: 250px;
+    margin-left: 60px;
+  }
+  .six .flex .pc .btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    padding-top: 15px;
+    background: orange;
+    color: #FFF;
+    border-radius: 3px;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    margin-left: 3px;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .six .flex .pc .btn-square:hover {
+    cursor: pointer;
+  }
+  .six .flex .pc .grey {
+    background-color: #DCDCDC;
+    width: 400px;
+    margin: 10px 0;
+    padding: 10px;
+    height: 470px;
+    margin-left: 3px;
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  .six .flex .pc .grey h3 {
+    margin-top: 20px;
+  }
+  .six .flex .pc .grey .power {
+    width: 370px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1300px) {
+  header {
+    height: 800px;
+  }
+  header .a {
+    top: 450px;
+    -webkit-transform: translate(-240%, -50%);
+            transform: translate(-240%, -50%);
+    width: 280px;
+  }
+  header .b {
+    top: 400px;
+    width: 500px;
+  }
+  header .c {
+    top: 450px;
+    -webkit-transform: translate(140%, -50%);
+            transform: translate(140%, -50%);
+    width: 280px;
+  }
+  .own {
+    height: 1000px;
+    background: -webkit-gradient(linear, left top, right top, from(#8EF1FF), color-stop(50%, #8EF1FF), color-stop(50%, #333399), to(#333399));
+    background: linear-gradient(to right, #8EF1FF 0%, #8EF1FF 50%, #333399 50%, #333399 100%);
+  }
+  .own .flex {
+    position: relative;
+    top: 450px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .own .flex .pc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .own .flex .pc .logo {
+    width: 300px;
+    padding-bottom: 30px;
+  }
+  .own .flex .pc .fruits {
+    width: 350px;
+  }
+  .own .flex .pc .date {
+    width: 130px;
+  }
+  .own .flex-pe {
+    display: none;
+  }
+  .two {
+    height: 650px;
+  }
+  .two .title {
+    top: 100px;
+    font-size: 35px;
+    width: 900px;
+  }
+  .two .title > span {
+    font-size: 50px;
+  }
+  .two .flex {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 1200px;
+  }
+  .two .flex img {
+    width: 430px;
+  }
+  .two .flex .date {
+    width: 600px;
+    font-size: 20px;
+  }
+  .two .flex .date > span {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .two .flex-two {
+    display: none;
+  }
+  .three {
+    height: 750px;
+  }
+  .three .title {
+    font-size: 40px;
+  }
+  .three .flex {
+    top: 430px;
+    width: 800px;
+  }
+  .three .flex img {
+    width: 250px;
+  }
+  .four {
+    height: 550px;
+  }
+  .four img {
+    top: 277px;
+  }
+  .five {
+    position: relative;
+    background-image: url("https://beiz.jp/images_T/wood-texture/wood-texture_00008.jpg");
+    height: 1100px;
+    background-size: cover;
+  }
+  .five h1 {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: white;
+  }
+  .five .shaki {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+  }
+  .five .flex-own {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 900px;
+  }
+  .five .flex-own .pc-own {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .five .flex-own .pc-own img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  .five .flex-own .pc-own p {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+  }
+  .five .adeyaka {
+    position: absolute;
+    top: 670px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+  }
+  .five .flex-two {
+    position: absolute;
+    top: 850px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 900px;
+  }
+  .five .flex-two .pc-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .five .flex-two .pc-two img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  .five .flex-two .pc-two p {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+  }
+  .six .flex {
+    top: 430px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 1100px;
+  }
+  .six .flex .pc .web {
+    margin-left: 80px;
+  }
+  .six .flex .pc .btn-square {
+    width: 400px;
+    height: 60px;
+    margin-top: 30px;
+  }
+  .six .flex .pc .grey {
+    width: 400px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /******************************************************************
+
+Stylesheet: Retinaディスプレイで適用
+
+******************************************************************/
+  /* 
+
+EXAMPLE 
+.icon {
+	background: url(images/test@2x.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+*/
+}
+
+@media print {
+  /******************************************************************
+
+Stylesheet: プリンタのみに適用
+
+******************************************************************/
+}
+/*# sourceMappingURL=style.css.map */
